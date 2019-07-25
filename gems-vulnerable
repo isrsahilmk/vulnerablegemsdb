@@ -1,0 +1,1 @@
+`Nokogiri <= 1.5.4` vulnerable to XXE attack, underlying library that Nokogiri uses for XML parsing (libxml2) reference: https://snyk.io/blog/nokogiri-xxe-vulnerabilities/
