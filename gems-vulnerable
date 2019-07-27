@@ -1,1 +1,3 @@
 `Nokogiri <= 1.5.4` vulnerable to XXE attack, underlying library that Nokogiri uses for XML parsing (libxml2) reference: https://snyk.io/blog/nokogiri-xxe-vulnerabilities/
+
+`mini_magick < 4.9.4` vulnerable to RCE, Image.open input is directly passed to Kernel#open, which accepts a '|' character followed by a command. Found by: rootxharsh, refs: https://twitter.com/rootxharsh/status/1149560140091121664, https://vulmon.com/vulnerabilitydetails?qid=CVE-2019-13574
